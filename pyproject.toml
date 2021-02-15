@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "ps2021ss"
+version = "0.0.1"
+description = ""
+authors = ["Takahiro Ueda <tueda@st.seikei.ac.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"  # anyio requires >=3.6.2
+
+jupyterlab = "^3.0.6"
+
+mkdocs = "^1.1.2"
+mkdocs-cinder = "^1.2.0"
+
+# Same version as Google Colab (29 Jan 2021)
+matplotlib = "^3.2.2"
+
+[tool.poetry.dev-dependencies]
+cli-confirm = "^1.0.0"
+pre-commit = "^2.10.0"
+taskipy = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.taskipy.tasks]
+# Set up a development environment.
+setup = "pre-commit install && pre-commit install --hook-type commit-msg && npm install"
+
+# Make page contains.
+make = "task make-footnotes && task make-links"
+
+# Make footnotes in notebooks.
+make-footnotes = "python scripts/make-footnotes.py"
+
+# Make notebooks links in index pages.
+make-links = "python scripts/make-links.py"
+
+# Run linters.
+lint = "pre-commit run --all-files"
+
+# Run textlint for notebooks.
+textlint = "jupyter nbconvert --to markdown --output-dir .converted notebooks/*.ipynb && npx textlint -f pretty-error --cache docs/*.md notebooks/*.md .converted/*.md"
+
+# Run Jupyter Notebook.
+notebook = "jupyter notebook --no-browser"
+
+# Run the document server.
+serve = "mkdocs serve"
+
+# Deploy the document contents.
+deploy = "confirm 'Are you sure to deploy?' && mkdocs gh-deploy"
+
+# Run the answer viewer.
+viewer = "python scripts/viewer.py"

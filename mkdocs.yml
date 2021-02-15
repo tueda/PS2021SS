@@ -1,0 +1,8 @@
+site_name: 物理シミュレーション
+
+theme:
+  name: cinder
+extra_css:
+  - "css/mystyle.css"
+markdown_extensions:
+    - attr_list

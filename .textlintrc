@@ -1,0 +1,43 @@
+{
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "preset-ja-engineering-paper": {
+      "no-synonyms": {
+        "allows": ["日本"],   // workaround for Japan vs. 「日本」語訳
+      },
+      "unify-kuten-and-touten": {
+        "kuten": "。",
+        "touten": "、",
+      }
+    },
+    "preset-ja-spacing": true,
+    "preset-ja-technical-writing": {
+      "max-kanji-continuous-len": {
+        max: 5,
+        allow: [
+          "科学技術計算",
+          "固定小数点数",
+          "四倍精度浮動小数点数",
+          "大規模科学技術計算",
+          "単精度浮動小数点数",
+          "任意精度多倍長整数",
+          "任意精度浮動小数点数",
+          "倍精度浮動小数点数",
+          "半精度浮動小数点数",
+          "浮動小数点数",
+          "複合代入演算子",
+        ]
+      },
+      "no-mix-dearu-desumasu": {
+        "preferInHeader": "である",
+        "preferInBody": "である",
+        "preferInList": "である",
+        "strict": true
+      }
+    },
+    "preset-japanese": true,
+    "preset-jtf-style": true
+  }
+}
