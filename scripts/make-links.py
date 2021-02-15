@@ -27,7 +27,8 @@ def make_link(string: str, branch: str, notebook: str, use_extension: bool) -> s
     download_url = filepath  # relative URL
     binder_url = f"https://mybinder.org/v2/gh/{repo}/{branch}?filepath={filepath}"
     colab_url = (
-        f"https://colab.research.google.com/github/{repo}/blob/{branch}/{filepath}"
+        f"https://colab.research.google.com/github/"
+        f"{repo}/blob/{branch}/{filepath}?hl=ja"
     )
 
     download_attr = f"{{: download={filename}}}" if use_extension else ""
