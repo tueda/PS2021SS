@@ -39,6 +39,10 @@ ja-technical-writing/ja-no-weak-phrase
 
 <!-- textlint-enable -->
 
+<!-- textlint-disable
+ja-technical-writing/sentence-length
+-->
+
 - [ゼロからのPython入門講座](https://www.python.jp/train/index.html)（Python Japan）：
   プログラミング入門者向けのチュートリアル。[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=ja)を想定。
 - [Python チュートリアル](https://docs.python.org/ja/3/tutorial/)（Python Software Foundation）：
@@ -49,3 +53,7 @@ ja-technical-writing/ja-no-weak-phrase
   PDFファイルとして公開されている講義録。[IDLE](https://docs.python.org/ja/3/library/idle.html)を想定。
 - [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)（MIT OpenCourseWare）：
   プログラミング入門者向け（英語）。
+- [Python Programming And Numerical Methods: A Guide For Engineers And Scientists](https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html)（Qingkai Kong氏、Timmy Siauw氏、Alexandre Bayen氏）：
+  プログラミング＆数値計算の入門者向けの本のネット公開版（英語）。
+
+<!-- textlint-enable -->
