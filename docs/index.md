@@ -8,6 +8,11 @@ title:
 
 ## ノートブック
 
+<!-- textlint-disable
+ja-technical-writing/no-unmatched-pair,
+ja-technical-writing/sentence-length
+-->
+
 1. 高機能な電卓
 1. 条件分岐
 1. 反復処理
@@ -22,6 +27,13 @@ title:
 1. 方程式の解
 1. 運動のシミュレーション
 1. まとめ演習
+
+<!-- don't want to merge two consecutive lists -->
+
+- [動作確認](https://nbviewer.jupyter.org/github/tueda/PS2021SS/blob/gh-pages/notebooks/00_%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D.ipynb) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/00_%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D.ipynb){: download=00_動作確認.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/00_%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/00_%E5%8B%95%E4%BD%9C%E7%A2%BA%E8%AA%8D.ipynb?hl=ja)
+    - ジュリア集合
+
+<!-- textlint-enable -->
 
 
 ## Jupyterノートブックプレビューア
