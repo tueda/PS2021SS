@@ -41,3 +41,11 @@ poetry env use python3.6
 poetry install
 poetry run task setup
 ```
+
+
+## Branches
+
+- master: dummy text
+- develop: general development, including temporary versions
+- stable: source for deployment
+- gh-pages: deployment
