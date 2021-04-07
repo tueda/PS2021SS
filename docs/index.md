@@ -14,6 +14,11 @@ ja-technical-writing/sentence-length
 -->
 
 1. [高機能な電卓](previews/01_高機能な電卓.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/01_%E9%AB%98%E6%A9%9F%E8%83%BD%E3%81%AA%E9%9B%BB%E5%8D%93.ipynb){: download=01_高機能な電卓.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/01_%E9%AB%98%E6%A9%9F%E8%83%BD%E3%81%AA%E9%9B%BB%E5%8D%93.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/01_%E9%AB%98%E6%A9%9F%E8%83%BD%E3%81%AA%E9%9B%BB%E5%8D%93.ipynb?hl=ja)
+    - 四則演算
+    - 変数
+    - データ型（`int`, `float`, `str`）
+    - ユーザー入力と出力（`input`, `print`）
+    - 数学関数（`import math`）
 1. 条件分岐
 1. 反復処理
 1. 関数
