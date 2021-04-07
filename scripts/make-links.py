@@ -33,6 +33,10 @@ def make_link(string: str, branch: str, notebook: str, use_extension: bool) -> s
 
     download_attr = f"{{: download={filename}}}" if use_extension else ""
 
+    if use_extension:
+        # HACK: for blob/gh-pages/index.md
+        preview_url = f"previews/{Path(notebook).stem}.html"
+
     if not use_extension:
         # HACK: for blob/develop/notebooks/index.md
         # TODO: clicking this URL doesn't start downloading, just shows the raw content.

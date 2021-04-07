@@ -294,3 +294,4 @@ ipython_config.py
 .converted/
 .jupyter/
 .textlintcache
+docs/previews
