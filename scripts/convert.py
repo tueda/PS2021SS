@@ -1,25 +1,48 @@
 """Convert notebooks into different formats."""
 
 import logging
-import subprocess
 import time
 from pathlib import Path
 
 import joblib
+import nbconvert
+import nbformat
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 logger.addHandler(logging.StreamHandler())
 
+memory = joblib.Memory(".cache", verbose=0)
+
+
+@memory.cache
+def convert_notebook(title: str, contents: str, fmt: str) -> str:
+    """Convert a notebook into another format."""
+    nb = nbformat.reads(contents, as_version=4)
+    nb.metadata["title"] = title
+
+    if fmt == "html":
+        html_exporter = nbconvert.HTMLExporter()
+        html_exporter.template_name = "lab"
+        html_body, html_resources = html_exporter.from_notebook_node(nb)
+        return html_body
+
+    if fmt == "md":
+        md_exporter = nbconvert.MarkdownExporter()
+        md_body, md_resources = md_exporter.from_notebook_node(nb)
+        return md_body
+
+    raise ValueError(f"format {fmt} unsupported")
+
 
 def convert(notebook_dir: Path, dest_dir: Path, fmt: str, clear: bool = True):
     """Convert notebooks into another format."""
+    n_jobs = 1  # seems be fast enough for now
+
     if fmt == "html":
         fmt_name = "HTML"
-        fmt_opts = ["--to", "html", "--template", "lab"]
     elif fmt == "md":
         fmt_name = "Markdown"
-        fmt_opts = ["--to", "markdown"]
     else:
         raise ValueError(f"format {fmt} unsupported")
 
@@ -42,19 +65,16 @@ def convert(notebook_dir: Path, dest_dir: Path, fmt: str, clear: bool = True):
 
     # Convert the .ipynb files.
 
-    def run(target: Path):
-        subprocess.run(  # noqa: S603, S607
-            [
-                "jupyter",
-                "nbconvert",
-                *fmt_opts,
-                "--output-dir",
-                str(dest_dir),
-                str(target),
-            ]
-        )
+    def run(target: Path) -> None:
+        result = convert_notebook(target.stem, target.read_text(), fmt)
+        dest_file = dest_dir / target.with_suffix("." + fmt).name
+        if dest_file.is_file() and dest_file.read_text() == result:
+            return
+        dest_file.write_text(result)
 
-    joblib.Parallel(n_jobs=-1)(joblib.delayed(run)(f) for f in target_files)
+    if target_files:
+        dest_dir.mkdir(exist_ok=True)
+        joblib.Parallel(n_jobs=n_jobs)(joblib.delayed(run)(f) for f in target_files)
 
     t2 = time.time()
 
