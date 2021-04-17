@@ -9,6 +9,7 @@ python = "^3.6.2"  # anyio requires >=3.6.2
 
 jupyterlab = "^3.0.11"
 
+joblib = "^1.0.1"
 mkdocs = "^1.1.2"
 mkdocs-cinder = "^1.2.0"
 mkdocs-simple-hooks = "^0.1.3"
@@ -45,7 +46,7 @@ make-links = "python scripts/make-links.py"
 lint = "pre-commit run --all-files"
 
 # Run textlint for notebooks.
-textlint = "jupyter nbconvert --to markdown --output-dir .converted notebooks/*.ipynb && npx textlint -f pretty-error --cache docs/*.md *.md .converted/*.md"
+textlint = "python -c 'from scripts.convert import nb2md; nb2md()' && npx textlint -f pretty-error --cache docs/*.md *.md .converted/*.md"
 
 # Run Jupyter Notebook.
 notebook = "jupyter notebook --no-browser"
