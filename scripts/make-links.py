@@ -113,7 +113,7 @@ def process_file(
 
 def main() -> None:
     """Entry point."""
-    process_file("notebooks/index.md", "develop", "notebooks")
+    process_file("develop.md", "develop", "notebooks")
     process_file(
         "docs/index.md", "gh-pages", "docs/notebooks", "notebooks", use_extension=True
     )

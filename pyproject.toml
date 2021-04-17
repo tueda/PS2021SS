@@ -45,7 +45,7 @@ make-links = "python scripts/make-links.py"
 lint = "pre-commit run --all-files"
 
 # Run textlint for notebooks.
-textlint = "jupyter nbconvert --to markdown --output-dir .converted notebooks/*.ipynb && npx textlint -f pretty-error --cache docs/*.md notebooks/*.md .converted/*.md"
+textlint = "jupyter nbconvert --to markdown --output-dir .converted notebooks/*.ipynb && npx textlint -f pretty-error --cache docs/*.md *.md .converted/*.md"
 
 # Run Jupyter Notebook.
 notebook = "jupyter notebook --no-browser"
