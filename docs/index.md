@@ -25,7 +25,12 @@ ja-technical-writing/sentence-length
     - ブール演算
     - 乱数（`random.randint`）
     - じゃんけんゲーム
-1. 反復処理
+1. [反復処理](previews/03_反復処理.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/03_%E5%8F%8D%E5%BE%A9%E5%87%A6%E7%90%86.ipynb){: download=03_反復処理.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/03_%E5%8F%8D%E5%BE%A9%E5%87%A6%E7%90%86.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/03_%E5%8F%8D%E5%BE%A9%E5%87%A6%E7%90%86.ipynb?hl=ja)
+    - `while`文
+    - 数当てゲーム
+    - リストと`range`オブジェクト
+    - `for`文
+    - 覆面算
 1. 関数
 1. グラフの描画
 1. 文字列処理
