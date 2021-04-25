@@ -31,7 +31,11 @@ ja-technical-writing/sentence-length
     - リストと`range`オブジェクト
     - `for`文
     - 覆面算
-1. 関数
+1. [関数](previews/04_関数.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/04_%E9%96%A2%E6%95%B0.ipynb){: download=04_関数.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/04_%E9%96%A2%E6%95%B0.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/04_%E9%96%A2%E6%95%B0.ipynb?hl=ja)
+    - 関数
+    - スコープ
+    - 再帰呼び出し
+    - ブラックジャック
 1. グラフの描画
 1. 文字列処理
 1. 乱数
