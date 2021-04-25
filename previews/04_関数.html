@@ -15563,16 +15563,15 @@ $$<!-- textlint-enable -->
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><span id="cite_note-13">13.</span> <a href="#cite_ref-13">^</a>
 ローカル変数としての名前の束縛は、変数への代入が見つかった時点で起こる。次の例では（<code>x = 1</code>の文は絶対に実行されないが）<code>x</code>はローカルとなるので、代入前に参照したこととなりエラーが起こる。</p>
+<div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="mi">2</span>
 
-<pre><code>python:
-x = 2
+<span class="k">def</span> <span class="nf">f</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+    <span class="k">if</span> <span class="kc">False</span><span class="p">:</span>
+        <span class="n">x</span> <span class="o">=</span> <span class="mi">1</span>
 
-def f():
-    print(x)
-    if False:
-        x = 1
-
-f()</code></pre>
+<span class="n">f</span><span class="p">()</span>
+</pre></div>
 <p>一方で、変数の名前解決は実行時に行われる。関数の定義時に定義されていなかったグローバル変数を参照しようとしてもよい（実行時に定義されていれば）。</p>
 <div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">f</span><span class="p">():</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">new_x</span><span class="p">)</span>
