@@ -36,7 +36,11 @@ ja-technical-writing/sentence-length
     - スコープ
     - 再帰呼び出し
     - ブラックジャック
-1. グラフの描画
+1. [グラフの描画](previews/05_グラフの描画.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/05_%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E6%8F%8F%E7%94%BB.ipynb){: download=05_グラフの描画.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/05_%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E6%8F%8F%E7%94%BB.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/05_%E3%82%B0%E3%83%A9%E3%83%95%E3%81%AE%E6%8F%8F%E7%94%BB.ipynb?hl=ja)
+    - Matplotlib
+    - 関数のグラフ
+    - マクローリン展開
+    - 媒介変数表示
 1. 文字列処理
 1. 乱数
 1. モンテカルロ法
