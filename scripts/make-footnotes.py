@@ -15,12 +15,12 @@ def make_footnotes(input_lines: Sequence[str]) -> Sequence[str]:
     output_lines = []
     for line in input_lines:
         line = re.sub(
-            r"\[\^([^\]]+)\]\s*:",
+            r"(?<!`)\[\^([^\]]+)\]\s*:",
             r'<span id=\\"cite_note-\1\\">\1.</span> [^](#cite_ref-\1)',
             line,
         )
         line = re.sub(
-            r"\[\^([^\]]+)\]",
+            r"(?<!`)\[\^([^\]]+)\]",
             r'[<sup id=\\"cite_ref-\1\\">[\1]</sup>](#cite_note-\1)',
             line,
         )
