@@ -41,7 +41,12 @@ ja-technical-writing/sentence-length
     - 関数のグラフ
     - マクローリン展開
     - 媒介変数表示
-1. 文字列処理
+1. [文字列処理](previews/06_文字列処理.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/06_%E6%96%87%E5%AD%97%E5%88%97%E5%87%A6%E7%90%86.ipynb){: download=06_文字列処理.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/06_%E6%96%87%E5%AD%97%E5%88%97%E5%87%A6%E7%90%86.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/06_%E6%96%87%E5%AD%97%E5%88%97%E5%87%A6%E7%90%86.ipynb?hl=ja)
+    - 文字コード
+    - 文字列の操作
+    - 正規表現
+    - 1次元ぷよぷよ
+    - シーザー暗号
 1. 乱数
 1. モンテカルロ法
 1. ランダムウォーク
