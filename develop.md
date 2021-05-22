@@ -47,5 +47,6 @@ poetry run task setup
 
 - master: dummy text
 - develop: general development, including temporary versions
-- stable: source for deployment
+- stable: stable version
+- release: to deploy
 - gh-pages: deployment
