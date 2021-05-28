@@ -161,13 +161,15 @@ def parse_ipynb(path: Path) -> Tuple[List[StringList], List[str]]:
     """Parse a Jupyter notebook file."""
     blocks = []
     ids = []
+
     for cell in nbformat.read(path, nbformat.NO_CONVERT).cells:
         if cell["cell_type"] == "code" and re.search(
             r"#\s*課題解答\d+\.\d+", cell["source"]
         ):
             blocks.append(cell["source"].splitlines(keepends=False))
         if "id" in cell["metadata"]:
-            ids.append(cell["metadata"]["id"])
+            if "id" not in cell or cell["id"] != cell["metadata"]["id"]:
+                ids.append(cell["metadata"]["id"])
         if "outputId" in cell["metadata"]:
             ids.append(cell["metadata"]["outputId"])
     return blocks, ids
