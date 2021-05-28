@@ -69,7 +69,7 @@ def load_answers(
         if m:
             user = m.group(1)
             suffix = p.suffix.lower()
-            if suffix in (".ipynb", ".json"):
+            if suffix in (".ipynb", ".json", ".ipynb のコピー"):
                 if user not in answers:
                     raise AssertionError(f"unknown user {user}")
                 if p in seen:
