@@ -15089,7 +15089,7 @@ Pythonの重要なデータ型の1つ（ではあるがこの授業に出てこ�
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><span id="cite_note-8">8.</span> <a href="#cite_ref-8">^</a>
-<code>set</code>に追加するものはイミュータブル（immutable）でなければならず、よって<code>list</code>は追加できない。</p>
+<code>set</code>に追加するものは<a href="https://docs.python.org/ja/3/glossary.html#term-immutable">イミュータブル（immutable）</a>でなければならない（より正確に言うと<a href="https://docs.python.org/ja/3/glossary.html#term-hashable">ハッシュ可能（hashable）</a>でなければならない）。よって<code>list</code>は追加できない。</p>
 
 </div>
 </div>
@@ -15097,7 +15097,7 @@ Pythonの重要なデータ型の1つ（ではあるがこの授業に出てこ�
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><span id="cite_note-9">9.</span> <a href="#cite_ref-9">^</a>
 実はこの方法では、確かに自己回避ランダムウォークを生成できてはいるが、実現可能な自己回避ランダムウォークを等確率でサンプリングしていることにはならない。もっとも単純で（そして遅い）正確な$n$ステップ自己回避ランダムウォークのサンプリング方法は棄却法（rejection sampling）による。通常の$n$ステップランダムウォークを生成し、交差があれば棄却して初めからやり直す。これを成功するまで続ける。効率的な自己回避ランダムウォークのサンプリングについてはたとえば次を参照せよ。</p>
-<!-- textlint-disable ja-technical-writing/sentence-length -->
+<!-- textlint-disable ja-technical-writing/sentence-length,ja-technical-writing/max-comma -->
 
 <ul>
 <li>Alan D. Sokal, <em>Monte Carlo methods for the self-avoiding walk</em>, in <em>Monte Carlo and Molecular Dynamics Simulations in Polymer Science</em> (ed. K. Binder), Oxford University Press, New York, 1995, <a href="https://arxiv.org/abs/hep-lat/9405016">arXiv:hep-lat/9405016</a>.</li>
