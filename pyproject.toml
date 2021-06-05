@@ -34,13 +34,16 @@ profile = "black"
 setup = "pre-commit install && pre-commit install --hook-type commit-msg && npm install"
 
 # Make page contains.
-make = "task make-footnotes && task make-links"
+make = "task make-footnotes && task make-imagelinks && task make-binderlinks"
 
 # Make footnotes in notebooks.
 make-footnotes = "python scripts/make-footnotes.py"
 
+# Make image links in notebooks.
+make-imagelinks = "python scripts/make-imagelinks.py"
+
 # Make notebooks links in index pages.
-make-links = "python scripts/make-links.py"
+make-binderlinks = "python scripts/make-binderlinks.py"
 
 # Run linters.
 lint = "pre-commit run --all-files"
