@@ -61,7 +61,9 @@ ja-technical-writing/sentence-length
     - 1次元ランダムウォーク
     - 2次元ランダムウォーク
     - 自己回避ランダムウォーク
-1. フラクタル
+1. [フラクタル](previews/10_フラクタル.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/10_%E3%83%95%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%AB.ipynb){: download=10_フラクタル.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/10_%E3%83%95%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%AB.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/10_%E3%83%95%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%AB.ipynb?hl=ja)
+    - コッホ曲線
+    - シェルピンスキーのギャスケット
 1. セルオートマトン
 1. 方程式の解
 1. 運動のシミュレーション
