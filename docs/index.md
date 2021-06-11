@@ -92,6 +92,37 @@ ja-technical-writing/ja-no-weak-phrase
 
 <!-- textlint-enable -->
 
+
+<!-- textlint-disable
+ja-technical-writing/sentence-length,
+ja-technical-writing/ja-no-redundant-expression,
+ja-technical-writing/ja-no-weak-phrase,
+jtf-style/4.1.1.句点(。)
+-->
+
+言うまでもありませんが、この講義だけでPythonをマスターすることはできません。
+（「マスターする」の定義は人によって違うでしょう。
+ある人にとっては一通りの知識を学んで「脱初心者」を達成することかもしれません。
+あるいは、ある人にとってはPythonの過去・現在・未来をすべて見通せるような「人ならざる者」になることかもしれません。
+どちらにせよ、この講義だけでは無理ですし、ねらいともしていません。）
+思いつくものだけ挙げてみても、たとえば次の事柄がカバーされていません。
+必要となったときに学習する必要があります。
+
+- クラスの定義
+- ファイルの入出力
+- 辞書型
+- エラーと例外
+- よく使われる標準ライブラリおよびサードパーティのライブラリ
+- 型ヒント
+- docstringの書き方
+- アプリケーションおよびライブラリのパッケージング
+- （Pythonに限らず）もっと高度な計算アルゴリズムやデータ構造
+
+そのために、次のリンクが参考になるかもしれません。
+
+<!-- textlint-enable -->
+
+
 <!-- textlint-disable
 ja-technical-writing/sentence-length
 -->
