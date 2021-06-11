@@ -124,7 +124,8 @@ jtf-style/4.1.1.句点(。)
 
 
 <!-- textlint-disable
-ja-technical-writing/sentence-length
+ja-technical-writing/sentence-length,
+ja-technical-writing/max-kanji-continuous-len
 -->
 
 - [ゼロからのPython入門講座](https://www.python.jp/train/index.html)（Python Japan）：
@@ -134,6 +135,8 @@ ja-technical-writing/sentence-length
 - [ゼロから学ぶPython](https://kaityo256.github.io/python_zero/)（渡辺宙志氏）：
   Web上に公開されている講義録。[Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=ja)を想定。最近、本になった。
 - [コンピュータ処理](https://amorphous.tf.chiba-u.jp/lecture.files/chem_computer/index.html)（大窪貴洋氏）：化学屋さん向け（たぶん）のPythonの講義録。[Sphinx](https://www.sphinx-doc.org/ja/master/)で書かれている。[PyCharm](https://www.jetbrains.com/ja-jp/pycharm/)を想定。
+- [Pythonプログラミング入門](https://utokyo-ipp.github.io/index.html)（東京大学、数理・情報教育研究センター）：
+  [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=ja)を想定。
 - [プログラミング演習 Python 2019](https://hdl.handle.net/2433/245698)（喜多一氏）：
   PDFファイルとして公開されている講義録。[IDLE](https://docs.python.org/ja/3/library/idle.html)を想定。
 - [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/)（MIT OpenCourseWare）：
