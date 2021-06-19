@@ -26,8 +26,8 @@ def copy_to_clipboard(text: str, check: bool = True) -> None:
             )
             if not p.stdin:
                 raise RuntimeError("Popen failed")
-            # p.stdin.write(text.encode("utf-8"))
-            p.stdin.write(text.encode("shift_jis"))
+            p.stdin.write(text.encode("utf-8"))
+            # p.stdin.write(text.encode("shift_jis"))
             p.stdin.close()
             return p.wait() == 0
         return False
