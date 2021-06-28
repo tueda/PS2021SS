@@ -33,7 +33,7 @@ ja-technical-writing/max-kanji-continuous-len
     - `for`文
     - 覆面算
 1. [関数](previews/04_関数.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/04_%E9%96%A2%E6%95%B0.ipynb){: download=04_関数.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/04_%E9%96%A2%E6%95%B0.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/04_%E9%96%A2%E6%95%B0.ipynb?hl=ja)
-    - 関数
+    - 関数（`def`）
     - スコープ
     - 再帰呼び出し
     - ブラックジャック
@@ -69,7 +69,7 @@ ja-technical-writing/max-kanji-continuous-len
     - 基本セルオートマトン
     - グライダー
 1. [方程式の解](previews/12_方程式の解.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/12_%E6%96%B9%E7%A8%8B%E5%BC%8F%E3%81%AE%E8%A7%A3.ipynb){: download=12_方程式の解.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/12_%E6%96%B9%E7%A8%8B%E5%BC%8F%E3%81%AE%E8%A7%A3.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/12_%E6%96%B9%E7%A8%8B%E5%BC%8F%E3%81%AE%E8%A7%A3.ipynb?hl=ja)
-    - ラムダ式
+    - ラムダ式（`lambda`）
     - ニュートン法
     - 二分法
 1. [運動のシミュレーション](previews/13_運動のシミュレーション.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/13_%E9%81%8B%E5%8B%95%E3%81%AE%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.ipynb){: download=13_運動のシミュレーション.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/13_%E9%81%8B%E5%8B%95%E3%81%AE%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/13_%E9%81%8B%E5%8B%95%E3%81%AE%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.ipynb?hl=ja)
