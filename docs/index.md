@@ -77,7 +77,7 @@ ja-technical-writing/max-kanji-continuous-len
     - 1次元調和振動子
     - 斜方投射
     - 天体の運動
-1. まとめ演習
+1. [まとめ演習](previews/14_まとめ演習.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/14_%E3%81%BE%E3%81%A8%E3%82%81%E6%BC%94%E7%BF%92.ipynb){: download=14_まとめ演習.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/14_%E3%81%BE%E3%81%A8%E3%82%81%E6%BC%94%E7%BF%92.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/14_%E3%81%BE%E3%81%A8%E3%82%81%E6%BC%94%E7%BF%92.ipynb?hl=ja)
 
 <!-- don't want to merge two consecutive lists -->
 
