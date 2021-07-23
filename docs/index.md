@@ -6,6 +6,9 @@ title:
 # 物理シミュレーション
 
 
+説明スライドはCoursePowerにあります。
+
+
 ## ノートブック
 
 <!-- textlint-disable
@@ -32,6 +35,7 @@ ja-technical-writing/max-kanji-continuous-len
     - リストと`range`オブジェクト
     - `for`文
     - 覆面算
+    - 【発展】 円周率
 1. [関数](previews/04_関数.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/04_%E9%96%A2%E6%95%B0.ipynb){: download=04_関数.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/04_%E9%96%A2%E6%95%B0.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/04_%E9%96%A2%E6%95%B0.ipynb?hl=ja)
     - 関数（`def`）
     - スコープ
@@ -42,6 +46,7 @@ ja-technical-writing/max-kanji-continuous-len
     - 関数のグラフ
     - マクローリン展開
     - 媒介変数表示
+    - 【参考】 pandas
 1. [文字列処理](previews/06_文字列処理.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/06_%E6%96%87%E5%AD%97%E5%88%97%E5%87%A6%E7%90%86.ipynb){: download=06_文字列処理.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/06_%E6%96%87%E5%AD%97%E5%88%97%E5%87%A6%E7%90%86.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/06_%E6%96%87%E5%AD%97%E5%88%97%E5%87%A6%E7%90%86.ipynb?hl=ja)
     - 文字コード
     - 文字列の操作
@@ -53,11 +58,13 @@ ja-technical-writing/max-kanji-continuous-len
     - 一様乱数
     - 正規乱数
     - 中心極限定理
+    - 【付録】 確率変数の期待値と分散
 1. [モンテカルロ法](previews/08_モンテカルロ法.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/08_%E3%83%A2%E3%83%B3%E3%83%86%E3%82%AB%E3%83%AB%E3%83%AD%E6%B3%95.ipynb){: download=08_モンテカルロ法.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/08_%E3%83%A2%E3%83%B3%E3%83%86%E3%82%AB%E3%83%AB%E3%83%AD%E6%B3%95.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/08_%E3%83%A2%E3%83%B3%E3%83%86%E3%82%AB%E3%83%AB%E3%83%AD%E6%B3%95.ipynb?hl=ja)
     - コイン投げ
     - 円周率
     - 球の体積
     - 4次元超球の超体積
+    - 【発展】 ファインマン・ポイント
 1. [ランダムウォーク](previews/09_ランダムウォーク.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/09_%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF.ipynb){: download=09_ランダムウォーク.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/09_%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/09_%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF.ipynb?hl=ja)
     - 1次元ランダムウォーク
     - 2次元ランダムウォーク
@@ -77,6 +84,7 @@ ja-technical-writing/max-kanji-continuous-len
     - 1次元調和振動子
     - 斜方投射
     - 天体の運動
+    - 【発展】 水星の近日点移動
 1. [まとめ演習](previews/14_まとめ演習.html) [![Download ipynb](https://img.shields.io/badge/download-ipynb-brightgreen.svg?logo=jupyter)](notebooks/14_%E3%81%BE%E3%81%A8%E3%82%81%E6%BC%94%E7%BF%92.ipynb){: download=14_まとめ演習.ipynb} [![Launch Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tueda/PS2021SS/gh-pages?filepath=notebooks/14_%E3%81%BE%E3%81%A8%E3%82%81%E6%BC%94%E7%BF%92.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tueda/PS2021SS/blob/gh-pages/notebooks/14_%E3%81%BE%E3%81%A8%E3%82%81%E6%BC%94%E7%BF%92.ipynb?hl=ja)
 
 <!-- don't want to merge two consecutive lists -->
